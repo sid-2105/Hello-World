@@ -9,20 +9,17 @@ const ImageCarousel = ({ images }) => {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay:true,
     autoplaySpeed:2000,
-    centerMode:true,
+    // centerMode:true,
     centerPadding:50,
     // variableWidth:true,
     adaptiveHeight:true,
     arrows:true,
     pauseOnHover:true,
     lazyLoad:'ondemand'
-    // nextArrow:<CustomNextArrow/>,
-    // prevArrow:<CustomPrevArrow/>,
-    //  dotsClass:'custom_dots',
   };
 
   return (

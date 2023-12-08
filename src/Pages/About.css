@@ -11,5 +11,6 @@
 
 .about_left img{
     border: 1px solid black;
-    border-radius: 0px 10vw;
+    border-radius: 0% 40% ;
+    box-shadow: 0px 8px 8px 0px;
 }

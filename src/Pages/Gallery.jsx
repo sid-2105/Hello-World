@@ -12,7 +12,7 @@ const Gallery = () => {
       <div className="carousel">
           <ImageCarousel images={images} />
       </div>
-      <h2>Head</h2>
+      <h2>Our Head</h2>
       <div className="faculty">
         <ProfileCard profileType={'Top'} profileImage={'./principal.jpeg'} profileName={'Dr. Prof. HP Shukla'} profileDesignation={'Principal(UCER)'}/>
         <ProfileCard profileType={'Top'} profileImage={'./vd.jpg'} profileName={'Dr. Vijay kr. Dwivedi'} profileDesignation={'HOD(CSE)'}/>
@@ -25,13 +25,13 @@ const Gallery = () => {
         <ProfileCard profileType={'Middle'} profileImage={'./dilip.jpg'} profileName={'Dilip Kumar'} profileDesignation={'App Development'}/>
       </div>
       <h2>Our Team</h2>
-      <div className="faculty">
+      <div className="team">
         <ProfileCard profileType={'Bottom'} profileImage={'./sid.jpg'} profileName={'Siddharth Mishra'} profileDesignation={'President'}/>
         <ProfileCard profileType={'Bottom'} profileImage={'./shiv.jpeg'} profileName={'Shivansh Dwivedi'} profileDesignation={'Vice-President'}/>
         <ProfileCard profileType={'Bottom'} profileImage={'./diesel.jpeg'} profileName={'Shivang Gupta'} profileDesignation={'Treasurer/Membership'}/>
         <ProfileCard profileType={'Bottom'} profileImage={'./shubhi.jpeg'} profileName={'Shubhranshu'} profileDesignation={'Secretary/Social Media'}/>
         <ProfileCard profileType={'Bottom'} profileImage={'./saumya.jpg'} profileName={'Saumya Singh'} profileDesignation={'Technical Lead'}/>
-        <ProfileCard profileType={'Bottom'} profileImage={'./anshika.jpg'} profileName={'Anshika'} profileDesignation={'Hackathon & Event Coordinator'}/>
+        <ProfileCard profileType={'Bottom'} profileImage={'./anshika.jpg'} profileName={'Anshika'} profileDesignation={'Event Coordinator'}/>
       </div>
     </div>
   );

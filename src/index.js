@@ -11,6 +11,7 @@ import Layout from "./Components/Layout/Layout";
 import Contact from "./Pages/Contact.jsx";
 import Community from "./Pages/Community.jsx";
 import Gallery from "./Pages/Gallery.jsx";
+import AboutPage from "./Pages/AboutPage.jsx";
 
 
 
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <About/>,
+        element: <AboutPage/>,
       },
       {
         path:"/contact",

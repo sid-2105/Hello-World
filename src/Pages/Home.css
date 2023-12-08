@@ -13,7 +13,7 @@
     top: 0;
     width: 130%;
     height: 96%;
-    background: #48a3d3;
+    background: #48a3d4;
     opacity: 0.3;
     z-index: 0;
     border-radius: 0 0 50% 50%;
@@ -27,18 +27,54 @@
     top: 0;
     width: 130%;
     height: 95%;
-    background: linear-gradient( to right, rgba(30, 67, 0, 0.6),#141422 ), url(https://images.unsplash.com/photo-1626968361222-291e74711449?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center top no-repeat;
+    background: linear-gradient( to right, rgba(16, 0, 22, 0.6),#141422 ), url(https://images.unsplash.com/photo-1626968361222-291e74711449?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center top no-repeat;
+    background-size: cover;
     z-index: 0;
     border-radius: 0 0 50% 50%;
     transform: translateX(-50%) rotate(0deg);
 }
 
-.landingContainer h1{
+.landingContainer .LandingContent{
     color:rgb(255, 230, 0);
     font-size: 6vw;
     position: absolute;
     top: 45vh;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    left: 23.5vw;
+    animation: welcomeAnim2 7s forwards;
+}
+
+.landingContainer h2{
+    color: whitesmoke;
+    font-size: 4vw;
+    position: absolute;
+    top: 35vh;
+    z-index: 1;
+    animation: welcomeAnim 8s forwards;
+}
+
+@keyframes welcomeAnim {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes welcomeAnim2 {
+    0%{
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
 }
 
 
