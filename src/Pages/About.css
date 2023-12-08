@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5vw;
+}
+
+.about_right{
+  padding-left: 4vw;
+}
+
+.about_left img{
+    border: 1px solid black;
+    border-radius: 0px 10vw;
+}

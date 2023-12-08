@@ -1,0 +1,30 @@
+.Footer{
+    display: flex;
+    background-color: #141422;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1.5vw;
+    height: 30vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.Footer_Left{
+    color: antiquewhite;
+}
+
+
+.Footer_Right{
+    color: antiquewhite;
+}
+
+.Footer_Icons{
+    display: flex;
+    gap: 2vw;
+}
+.Footer_Icons img{
+    margin-top: 7px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+.contact{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10vw;
+}
+
+.contact_left{
+    border: 1px solid black;
+    box-shadow: 15px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 35vw;
+    padding: 5vw;
+}
+
+.contact_right img{
+      box-shadow: 7px 10px rgb(179, 175, 175);  
+}

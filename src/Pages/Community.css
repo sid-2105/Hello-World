@@ -1,0 +1,15 @@
+.community{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5vw;
+}
+
+.com_right img{
+    border: 1px solid black;
+    border-radius: 0px 10vw;
+}
+
+.com_left{
+    padding-right: 5vw;
+}
