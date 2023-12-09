@@ -3,7 +3,7 @@ import About from './About'
 
 const AboutPage = () => {
   return (
-    <div style={{border: '1px solid red', paddingTop : '10vw'}}><About/></div>
+    <div style={{ paddingTop : '10vw'}}><About/></div>
   )
 }
 

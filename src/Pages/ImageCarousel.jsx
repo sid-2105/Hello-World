@@ -13,13 +13,13 @@ const ImageCarousel = ({ images }) => {
     slidesToScroll: 1,
     autoplay:true,
     autoplaySpeed:2000,
-    // centerMode:true,
+    centerMode:true,
     centerPadding:50,
     // variableWidth:true,
     adaptiveHeight:true,
     arrows:true,
     pauseOnHover:true,
-    lazyLoad:'ondemand'
+    lazyLoad:'onDemand'
   };
 
   return (

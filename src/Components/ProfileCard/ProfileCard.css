@@ -8,6 +8,11 @@
     box-shadow: 8px 0px 8px 0px;
 }
 
+.ProfileCard img:hover{
+    transition: 1s;
+    transform: scale(1.04);
+}
+
 .Top{
     height: 350px;
     width: 350px;

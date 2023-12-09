@@ -37,6 +37,7 @@
 .landingContainer .LandingContent{
     color:rgb(255, 230, 0);
     font-size: 6vw;
+    font-weight: 600;
     position: absolute;
     top: 45vh;
     z-index: 1;
@@ -44,7 +45,7 @@
     align-items: center;
     gap: 1vw;
     left: 23.5vw;
-    animation: welcomeAnim2 7s forwards;
+    animation: welcomeAnim2 8s forwards;
 }
 
 .landingContainer h2{
@@ -60,6 +61,9 @@
     0%{
         opacity: 0;
     }
+    50%{
+        opacity: 0.5;
+    }
     100%{
         opacity: 1;
     }
@@ -68,11 +72,12 @@
 
 @keyframes welcomeAnim2 {
     0%{
-        transform: rotate(0deg);
+        color: rgb(225, 154, 23);
+        transform: translate(-5vw);
         opacity: 0;
     }
     100%{
-        transform: rotate(360deg);
+        transform: translate(0.5vw);
         opacity: 1;
     }
 }

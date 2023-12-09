@@ -3,14 +3,54 @@
     align-content: center;
     justify-content: space-between;
     padding: 5vw;
+
 }
 
 .about_right{
   padding-left: 4vw;
+  font-family: 'Nanum Pen Script', cursive;
+  animation: aboutanim2 5s forwards;
 }
 
 .about_left img{
     border: 1px solid black;
     border-radius: 0% 40% ;
     box-shadow: 0px 8px 8px 0px;
+    animation: aboutanim 5s forwards;
+}
+
+@keyframes aboutanim {
+  0%{
+    transition: 2s;
+      transform: translate(-75vh);
+      opacity: 0;
+  }
+  /* 50%{
+    transition: 2s;
+    transform: translate(0vh);
+    opacity: 0.5;
+  } */
+  100%{
+    transition: 2s;
+    transform: translate(1vh);
+    opacity: 1;
+  }
+}
+
+@keyframes aboutanim2 {
+  0%{
+    transition: 2s;
+      transform: translate(75vh);
+      opacity: 0;
+  }
+  /* 50%{
+    transition: 2s;
+    transform: translate(0vh);
+    opacity: 0.5;
+  } */
+  100%{
+    transition: 2s;
+    transform: translate(-1vh);
+    opacity: 1;
+  }
 }

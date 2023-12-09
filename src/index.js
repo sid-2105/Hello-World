@@ -6,14 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./Pages/About";
 import Layout from "./Components/Layout/Layout";
 import Contact from "./Pages/Contact.jsx";
-import Community from "./Pages/Community.jsx";
-import Gallery from "./Pages/Gallery.jsx";
 import AboutPage from "./Pages/AboutPage.jsx";
-
-
+import CommunityPage from "./Pages/CommunityPage.jsx";
+import GalleryPage from "./Pages/GalleryPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,11 +31,11 @@ const router = createBrowserRouter([
       },
       {
         path:"/community",
-        element:<Community/>,
+        element:<CommunityPage/>,
       },
       {
         path:"/gallery",
-        element:<Gallery/>
+        element:<GalleryPage/>
       }
     
     ],

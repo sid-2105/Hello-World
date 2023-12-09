@@ -1,12 +1,14 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 const Header = () => {
   return (
     <div className="Header">
       <div className="Header_Logo">
         <Link to={'/'}>
-        <img src="./logo69.png" alt="Logo" srcset="" />
+        <ScrollToTop/>
+        {/* <img src="./logo69.png" alt="" /> */}
         </Link>
       </div>
       <div className="Header_Navigation">
@@ -14,7 +16,7 @@ const Header = () => {
         <span>Home</span>
         </Link>
         <Link to={'/about'}>
-          <span>About</span>
+        <span>About</span>
         </Link>
         <Link to={'/contact'}>
         <span>Contact Us</span>

@@ -1,19 +1,28 @@
-.contact{
+.Contact{
+    text-align: center;
+    padding-top: 10vw;
+}
+.contact-parent{
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding: 10vw;
+    padding: 6vw;
 }
 
 .contact_left{
-    border: 1px solid black;
-    box-shadow: 15px;
-    border-radius: 15px;
-    background-color: aliceblue;
-    width: 35vw;
-    padding: 5vw;
+    border: 1px solid rgb(0, 162, 255);;
+    background-color:aliceblue;
+    height: 60vh;
+    width:35vw;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 10px 0px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .contact_right img{
-      box-shadow: 7px 10px rgb(179, 175, 175);  
+    /* margin: 2vw; */
+    box-shadow: 0px 8px 8px 0px;  
+    border-radius: 0% 30%;
+
 }
