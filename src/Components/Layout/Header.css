@@ -39,8 +39,9 @@
   text-decoration: none;
   font-size: 1vw;
   font-weight: 600;
+  font-family: 'Kalam', cursive;
 }
 
 .Header_Navigation a:hover{
-    color: rgb(211, 163, 18);
+    color:rgb(255, 230, 0);
 }
