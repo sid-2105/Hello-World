@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="contact-parent">
         <div className="contact_right">
           <img
-            src="https://images.pexels.com/photos/8867482/pexels-photo-8867482.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src="./contact-bg.png"
             alt=""
           />
         </div>

@@ -2,6 +2,11 @@
     text-align: center;
     padding-top: 10vw;
 }
+
+.Contact h1{
+    text-decoration: underline rgb(36, 148, 218);
+}
+
 .contact-parent{
     display: flex;
     align-content: center;
@@ -18,11 +23,9 @@
     border-radius: 18px;
     box-shadow: 0px 8px 10px 0px;
     font-family: 'Indie Flower', cursive;
+    animation: aboutanim2 5s forwards;
 }
 
 .contact_right img{
-    /* margin: 2vw; */
-    box-shadow: 0px 8px 8px 0px;  
-    border-radius: 0% 30%;
-
+    animation: aboutanim 5s forwards;
 }

@@ -13,9 +13,6 @@
 }
 
 .about_left img{
-    border: 1px solid black;
-    border-radius: 0% 40% ;
-    box-shadow: 0px 8px 8px 0px;
     animation: aboutanim 5s forwards;
 }
 
