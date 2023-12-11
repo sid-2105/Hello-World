@@ -13,13 +13,13 @@ const Footer = () => {
       <div className="Footer_Right">
         <h2> Contact Us:</h2>
         <div className="Footer_Icons">
-          <a href="http://instagram.com/perfectly_imperfect_sid?igshid=YmMyMTA2M2Y=">
+          <a href="http://instagram.com/perfectly_imperfect_sid?igshid=YmMyMTA2M2Y=" target="_blank">
             <img src="insta.jpeg" alt="" srcset="" />
           </a>
-          <a href="http://www.linkedin.com/in/siddharth-mishra-363194225">
+          <a href="http://www.linkedin.com/in/siddharth-mishra-363194225" target="_blank">
             <img src="linkedin.png" alt="" />
           </a>
-          <a href="http://twitter.com/Siddhu0509?t=QTCaR_p09WzsFXq1_LwDIQ&s=08">
+          <a href="http://twitter.com/Siddhu0509?t=QTCaR_p09WzsFXq1_LwDIQ&s=08" target="_blank">
             <img src="twitter.png" alt="" />
           </a>
         </div>
