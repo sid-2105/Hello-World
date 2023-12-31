@@ -1,5 +1,4 @@
 import React from 'react';
-import "./ScrollToTop.css";
 
 const ScrollToTop = () => {
   const scrollToTop = () => {
@@ -10,7 +9,7 @@ const ScrollToTop = () => {
   };
 
   return (
-    <div className='logo'>
+    <div>
       <img
         src="./logo69.png"
         alt="Scroll to Top"

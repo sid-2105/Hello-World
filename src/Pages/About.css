@@ -22,11 +22,7 @@
       transform: translate(-75vh);
       opacity: 0;
   }
-  /* 50%{
-    transition: 2s;
-    transform: translate(0vh);
-    opacity: 0.5;
-  } */
+  
   100%{
     transition: 2s;
     transform: translate(1vh);
@@ -40,14 +36,21 @@
       transform: translate(75vh);
       opacity: 0;
   }
-  /* 50%{
-    transition: 2s;
-    transform: translate(0vh);
-    opacity: 0.5;
-  } */
+
   100%{
     transition: 2s;
     transform: translate(-1vh);
     opacity: 1;
+  }
+}
+
+@media screen and (max-width:1040px) {
+  .about{
+    display: block;
+  }
+
+  .about_left img{
+    animation: none;
+    width: auto;
   }
 }

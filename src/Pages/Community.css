@@ -6,11 +6,18 @@
 }
 
 .com_right img{
-    animation: aboutanim2 10s forwards;
+    animation: aboutanim2 5s forwards;
 }
 
 .com_left{
     padding-right: 5vw;
     font-family: 'Nanum Pen Script', cursive;
-    animation: aboutanim 10s forwards;
+    animation: aboutanim 5s forwards;
+}
+
+
+@media screen and (max-width:1040px) {
+    .community{
+        display: block;
+    }
 }

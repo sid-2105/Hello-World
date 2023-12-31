@@ -47,3 +47,25 @@
 .Designation{
     font-size: large;
 }
+
+@media screen and (max-width:1040px) {
+    .ProfileCard img{
+        border-radius: 20%;
+    }
+    .Top{
+        width: auto;
+        height: auto;
+    }
+    .Middle{
+        width: auto;
+        height: auto;
+    }
+    .Bottom{
+        width: auto;
+        height: auto;
+    }
+
+    .ProfileCard img:hover{
+        transform: none;
+    }
+}

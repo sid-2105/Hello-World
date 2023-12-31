@@ -5,7 +5,7 @@ import GmailIcon from "../Components/Icons/GmailIcon";
 
 const Contact = () => {
   return (
-    <div className="Contact">
+    <div className="Page">
       <h1>Contact Us</h1>
       <div className="contact-parent">
         <div className="contact_right">

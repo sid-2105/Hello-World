@@ -14,7 +14,7 @@ const Footer = () => {
         <h2> Contact Us:</h2>
         <div className="Footer_Icons">
           <a href="http://instagram.com/perfectly_imperfect_sid?igshid=YmMyMTA2M2Y=" target="_blank">
-            <img src="insta.jpeg" alt="" srcset="" />
+            <img src="insta.jpeg" alt=""/>
           </a>
           <a href="http://www.linkedin.com/in/siddharth-mishra-363194225" target="_blank">
             <img src="linkedin.png" alt="" />

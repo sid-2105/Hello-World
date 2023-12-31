@@ -11,6 +11,7 @@ import Contact from "./Pages/Contact.jsx";
 import AboutPage from "./Pages/AboutPage.jsx";
 import CommunityPage from "./Pages/CommunityPage.jsx";
 import GalleryPage from "./Pages/GalleryPage.jsx";
+import ContactPage from "./Pages/ContactPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/contact",
-        element:<Contact/>,
+        element:<ContactPage/>,
       },
       {
         path:"/community",

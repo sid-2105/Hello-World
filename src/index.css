@@ -21,3 +21,12 @@
   font-family: 'Playpen Sans', cursive;
   font-size: 2vw;
 }
+
+
+@media screen and (max-width:640px){
+
+  .body{
+    max-width: 100%;
+  }
+  
+}

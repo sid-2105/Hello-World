@@ -65,3 +65,20 @@
     font-weight: 500;
     font-size: larger;
 }
+
+@media screen and (max-width:1040px){
+
+    .parent{
+        display: block;
+    }
+    
+    .eligibility{
+        width: auto;
+        margin-bottom: 5vh;
+    }
+
+    .benifits{
+        width: auto;
+    }
+
+}
