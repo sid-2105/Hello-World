@@ -44,13 +44,17 @@
   }
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width:640px) {
   .about{
     display: block;
   }
 
   .about_left img{
     animation: none;
-    width: auto;
+    width: 90vw;
+  }
+
+  .about_right{
+    animation: none;
   }
 }

@@ -86,3 +86,20 @@
 }
 
 
+@media screen and (max-width:640px) {
+    .landingContainer{
+        width: 100%;
+        height: 70vh;
+        overflow: hidden;
+        position: relative;
+        padding: 20vw;
+    }
+    .landingContainer .LandingContent{
+        top: 25vh;
+    }
+    .landingContainer h2{
+        top: 20vh;
+    }
+}
+
+

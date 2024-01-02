@@ -3,7 +3,7 @@ import Contact from './Contact'
 
 const ContactPage = () => {
   return (
-        <div style={{ paddingTop : '10vw'}}><Contact/></div>
+        <div style={{ paddingTop : '15vw'}}><Contact/></div>
   )
 }
 

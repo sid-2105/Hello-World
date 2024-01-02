@@ -3,7 +3,6 @@
     margin: 6vh 0;
 }
 .slick-slide{
-    /* border: 1px solid blue; */
     display: flex !important;
     align-items: center;
     justify-content: center;
@@ -32,7 +31,35 @@
     border: none;
 }
 
-
 .slick-slide div:focus-visible{
     outline: none !important;
+}
+
+@media screen and (max-width:640px) {
+
+    .carousel{
+        margin: 3vh 0;
+    }
+
+    .carouselimg img{
+        width: 200%;
+        height: 100%;
+        border-radius: 8%;
+    }
+
+    .slick-slide{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15vh;
+        border: none !important;
+    }
+
+    .slick-next{
+       display: none;
+    }
+    
+    .slick-prev{
+       display: none;
+    }
 }

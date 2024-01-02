@@ -13,7 +13,7 @@ const Gallery = () => {
           <ImageCarousel images={images} />
       </div>
       <h2>Our Head</h2>
-      <div className="faculty">
+      <div className="head">
         <ProfileCard profileType={'Top'} profileImage={'./principal.jpeg'} profileName={'Dr. Prof. HP Shukla'} profileDesignation={'Principal(UCER)'}/>
         <ProfileCard profileType={'Top'} profileImage={'./vd.jpg'} profileName={'Dr. Vijay kr. Dwivedi'} profileDesignation={'HOD(CSE)'}/>
       </div>

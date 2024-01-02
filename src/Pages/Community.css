@@ -16,8 +16,17 @@
 }
 
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width:640px) {
     .community{
-        display: block;
+        flex-direction: column-reverse;
+    }
+
+    .com_left{
+        animation: none;
+    }
+
+    .com_right img{
+        animation: none;
+        width: 95vw;
     }
 }

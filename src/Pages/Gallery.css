@@ -1,3 +1,10 @@
+.head{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 2vw;
+    margin: 1vw;
+}
 
 .faculty{
     display: flex;
@@ -11,18 +18,33 @@
     display: flex;
     align-content: center;
     justify-content: space-evenly;
-    padding: 2vw;
-    margin: 1vw;
 }
 
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width:640px) {
+
+    .head{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 12px;
+        grid-row-gap: 0px;
+    }
+
     .faculty{
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 70px;
+        grid-row-gap: 16px;
     }
 
     .team{
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
     }
 }
 

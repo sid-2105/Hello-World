@@ -23,7 +23,7 @@
     animation: aboutanim 5s forwards;
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width:640px) {
     .contact_right img{
         width:85vw;
         animation: none;

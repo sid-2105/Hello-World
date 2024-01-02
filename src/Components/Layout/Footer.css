@@ -12,10 +12,12 @@
 
 .Footer_Left{
     color: antiquewhite;
+    font-family: 'Kalam', cursive;
 }
 
 
 .Footer_Right{
+    font-family: 'Kalam', cursive;
     color: antiquewhite;
 }
 
@@ -34,4 +36,26 @@
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 2px  2px rgb(190, 148, 10);
+}
+
+
+@media screen and (max-width:640px) {
+    .Footer{
+        display: block;
+        text-align: center;
+    }
+    .Footer_Left{
+        font-size: 3vw;
+    }
+    .Footer_Right{
+        margin-top: 15px;
+        font-size: 3vw;
+    }
+
+    .Footer_Icons{
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
+    }
+    
 }

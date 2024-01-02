@@ -63,10 +63,10 @@
 .Card_list {
     padding: 1vw;
     font-weight: 500;
-    font-size: larger;
+    font-size: 1vw;
 }
 
-@media screen and (max-width:1040px){
+@media screen and (max-width:640px){
 
     .parent{
         display: block;
@@ -75,10 +75,23 @@
     .eligibility{
         width: auto;
         margin-bottom: 5vh;
+        height: 45vh;
     }
 
     .benifits{
         width: auto;
+        height: 45vh;
+    }
+
+    .Card_title{
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .Card_list {
+        padding: 1vw;
+        font-weight: 400;
+        font-size: 3vw;
     }
 
 }
