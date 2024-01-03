@@ -66,7 +66,7 @@
     font-size: 1vw;
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:480px){
 
     .parent{
         display: block;
@@ -92,6 +92,68 @@
         padding: 1vw;
         font-weight: 400;
         font-size: 3vw;
+    }
+
+}
+
+
+@media screen and (max-width:767px) and (min-width:482px){
+
+    .parent{
+        display: block;
+    }
+    
+    .eligibility{
+        width: auto;
+        margin-bottom: 5vh;
+        height: 50vh;
+    }
+
+    .benifits{
+        width: auto;
+        height: 50vh;
+    }
+
+    .Card_title{
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .Card_list {
+        padding: 1vw;
+        font-weight: 400;
+        font-size: 3vw;
+    }
+
+}
+
+
+@media screen and (max-width:1024px) and (min-width:769px){
+
+    .parent{
+        display: block;
+    }
+    
+    .eligibility{
+        width: auto;
+        margin-bottom: 5vh;
+        height: 55vh;
+    }
+
+    .benifits{
+        width: auto;
+        height: 55vh;
+    }
+
+    .Card_title{
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .Card_list {
+        padding: 1vw;
+        font-weight: 400;
+        font-size: 2vw;
     }
 
 }

@@ -16,7 +16,7 @@
 }
 
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:480px) {
     .community{
         flex-direction: column-reverse;
     }
@@ -26,7 +26,26 @@
     }
 
     .com_right img{
-        animation: none;
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:482px) {
+    .community{
+        flex-direction: column-reverse;
+    }
+
+    .com_right img{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .community{
+        flex-direction: column-reverse;
+    }
+
+    .com_right img{
         width: 95vw;
     }
 }

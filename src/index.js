@@ -7,7 +7,6 @@ import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
-import Contact from "./Pages/Contact.jsx";
 import AboutPage from "./Pages/AboutPage.jsx";
 import CommunityPage from "./Pages/CommunityPage.jsx";
 import GalleryPage from "./Pages/GalleryPage.jsx";

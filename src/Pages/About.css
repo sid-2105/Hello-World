@@ -44,17 +44,34 @@
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:480px) {
   .about{
     display: block;
   }
 
   .about_left img{
-    animation: none;
     width: 90vw;
   }
 
-  .about_right{
-    animation: none;
+}
+
+@media screen and (max-width:767px) and (min-width:482px){
+  .about{
+    display: block;
+  }
+
+  .about_left img{
+    width: 90vw;
+  }
+
+}
+
+@media screen and (max-width:1024px) and (min-width:769px){
+  .about{
+    display: block;
+  }
+
+  .about_left img{
+    width: 90vw;
   }
 }

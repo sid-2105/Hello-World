@@ -5,7 +5,7 @@
 }
 
 .Page{
-  min-height: 100vh;
+  min-height: 80vh;
   overflow-x: hidden;
 }
 
@@ -23,7 +23,7 @@
 }
 
 
-@media screen and (max-width:640px){
+@media screen and (max-width:480px){
 
   .body{
     max-width: 100%;
@@ -40,6 +40,50 @@
     text-align: center;
     font-family: 'Playpen Sans', cursive;
     font-size: 5vw;
+  }
+  
+}
+
+
+@media screen and (max-width:767px) and (min-width:482px){
+
+  .body{
+    max-width: 100%;
+  }
+
+  .Page h1{
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Playpen Sans', cursive;
+    text-decoration: underline rgb(0, 162, 255);
+  }
+
+  .Page h2{
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 4vw;
+  }
+  
+}
+
+
+@media screen and (max-width:1024px) and (min-width:769px){
+
+  .body{
+    max-width: 100%;
+  }
+
+  .Page h1{
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Playpen Sans', cursive;
+    text-decoration: underline rgb(0, 162, 255);
+  }
+
+  .Page h2{
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 3vw;
   }
   
 }

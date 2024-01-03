@@ -39,7 +39,7 @@
 }
 
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:480px) {
     .Footer{
         display: block;
         text-align: center;
@@ -58,4 +58,48 @@
         gap: 10vw;
     }
     
+}
+
+@media screen and (max-width:767px) and (min-width:482px){
+    .Footer{
+        display: block;
+        text-align: center;
+    }
+    .Footer_Left{
+        font-size: 2.5vw;
+        word-spacing: 2.5px;
+    }
+    .Footer_Right{
+        margin-top: 15px;
+        font-size: 2.5vw;
+    }
+
+    .Footer_Icons{
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
+    }
+    
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .Footer{
+        display: block;
+        text-align: center;
+        overflow-y: hidden;
+    }
+    .Footer_Left{
+        font-size: 2vw;
+    }
+    .Footer_Right{
+        margin-top: 15px;
+        font-size: 2vw;
+    }
+
+    .Footer_Icons{
+        display: flex;
+        justify-content: center;
+        gap: 10vw;
+    }
+   
 }

@@ -8,6 +8,13 @@
     box-shadow: 8px 0px 8px 0px;
 }
 
+.ProfileContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
 .ProfileCard img:hover{
     transition: 1s;
     transform: scale(1.04);
@@ -50,7 +57,7 @@
     font-family: 'Kalam', cursive;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:480px) {
     .Top{
         width: 200px;
         height: 200px;
@@ -78,7 +85,65 @@
     .Designation{
         font-size: small;
         font-family: 'Kalam', cursive;
+    } 
+}
+
+@media screen and (max-width:767px) and(min-width:482px) {
+    .Top{
+        width: 300px;
+        height: 300px;
+    }
+    .Middle{
+        width: 240px;
+        height: 240px;
+    }
+    .Bottom{
+        width: 150px;
+        height:150px;
     }
 
-    
+    .ProfileCard img:hover{
+        transform: none;
+    }
+
+    .Name{
+        font-size: medium;
+        font-weight: bold;
+        display: block;
+        font-family: 'Kalam', cursive;
+    }
+
+    .Designation{
+        font-size: small;
+        font-family: 'Kalam', cursive;
+    }
 }
+
+
+    @media screen and (max-width:1024px) and (min-width:769px) {
+        .Top{
+            width: 400px;
+            height: 400px;
+        }
+        .Middle{
+            width: 300px;
+            height: 300px;
+        }
+        .Bottom{
+            width: 200px;
+            height:200px;
+        }
+    
+    
+        .Name{
+            font-size: large;
+            font-weight: bold;
+            display: block;
+            font-family: 'Kalam', cursive;
+        }
+    
+        .Designation{
+            font-size: medium;
+            font-family: 'Kalam', cursive;
+        }
+    }
