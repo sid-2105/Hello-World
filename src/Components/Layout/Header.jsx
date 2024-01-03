@@ -19,16 +19,17 @@ const Header = () => {
       setColor(false);
     }
   };
-  useEffect(() => {}, [click]);
+  useEffect=(() => {}, [click]);
   window.addEventListener("scroll", changeColor);
+
   return (
     <div className={color ? "Header Header-bg" : "Header"}>
-      <div className="Header_Logo">
+      <div className="Header_Logo" >
         <Link to={"/"}>
           <ScrollToTop />
         </Link>
       </div>
-      <div className={click ? "Header_Navigation active" : "Header_Navigation"}>
+      <div className={click ? "Header_Navigation active"  : "Header_Navigation"}>
         <Link to={"/"}>
           <span onClick={() => handleClick()}>Home</span>
         </Link>
