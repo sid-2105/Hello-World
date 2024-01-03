@@ -3,7 +3,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -19,7 +19,7 @@ const Header = () => {
       setColor(false);
     }
   };
-  useEffect=(() => {}, [click]);
+  // useEffect=(() => {}, [click]);
   window.addEventListener("scroll", changeColor);
 
   return (
