@@ -44,7 +44,7 @@
   }
 }
 
-@media screen and (max-width:640px) and (min-width:469px) {
+@media screen and (max-width:480px) {
   .about{
     display: block;
   }
@@ -55,7 +55,7 @@
 
 }
 
-@media screen and (max-width:767px) and (min-width:642px){
+@media screen and (max-width:767px) and (min-width:482px){
   .about{
     display: block;
   }

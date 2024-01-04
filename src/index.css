@@ -23,7 +23,7 @@
 }
 
 
-@media screen and (max-width:640px) and (min-width:469px) {
+@media screen and (max-width:480px){
 
   .body{
     max-width: 100%;
@@ -45,7 +45,7 @@
 }
 
 
-@media screen and (max-width:767px) and (min-width:642px){
+@media screen and (max-width:767px) and (min-width:482px){
 
   .body{
     max-width: 100%;
