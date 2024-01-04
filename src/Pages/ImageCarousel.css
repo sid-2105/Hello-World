@@ -1,6 +1,6 @@
 
 .carousel{
-    margin: 6vh 0;
+    margin: 5vh 0;
 }
 .slick-slide{
     display: flex !important;
@@ -38,11 +38,11 @@
 @media screen and (max-width:480px) {
 
     .carousel{
-        margin: 3vh 0;
+        margin: 5vh 0;
     }
 
     .carouselimg img{
-        width: 200%;
+        width: 100%;
         height: 100%;
         border-radius: 8%;
     }
@@ -51,7 +51,7 @@
         display: flex !important;
         align-items: center;
         justify-content: center;
-        margin-left: 15vh;
+        margin-left: 10vh;
         border: none !important;
     }
 
@@ -67,11 +67,11 @@
 @media screen and (max-width:767px) and (min-width:482px){
 
     .carousel{
-        margin: 3vh 0;
+        margin: 5vh 0;
     }
 
     .carouselimg img{
-        width: 100%;
+        width: 150%;
         height: 100%;
         border-radius: 8%;
     }
@@ -80,7 +80,7 @@
         display: flex !important;
         align-items: center;
         justify-content: center;
-        margin-left: 28vh;
+        margin-left: 20vw;
         border: none !important;
     }
 }
@@ -101,7 +101,7 @@
         display: flex !important;
         align-items: center;
         justify-content: center;
-        margin-left: 20vh;
+        margin-left: 20vw;
         border: none !important;
     }
 
