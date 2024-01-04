@@ -25,18 +25,8 @@
     display: flex;
     gap: 2vw;
 }
-.Footer_Icons img{
-    margin-top: 7px;
-    height: 30px;
-    width: 30px;
-    border-radius: 10px;
-}
 
-.Footer_Icons img:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    box-shadow: 2px  2px rgb(190, 148, 10);
-}
+
 
 
 @media screen and (max-width:480px) {

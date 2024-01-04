@@ -1,7 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import PhoneIconComponent from "../Components/Icons/PhoneIcon";
-import GmailIcon from "../Components/Icons/GmailIcon";
+import { FaPhone,FaMailBulk } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -15,10 +14,10 @@ const Contact = () => {
           />
         </div>
         <div className="contact_left">
-          <h2>Helpline mail:</h2>
-          <p><GmailIcon/>xyz@gmail.com</p>
-          <h2>Call us:</h2>
-          <p> <PhoneIconComponent/>xxxxxxxxxxx</p>
+          <h2><FaMailBulk/>Helpline mail:</h2>
+          <h5>xyz@gmail.com</h5>
+          <h2><FaPhone/>Call us:</h2>
+          <p>xxxxxxxxxxx</p>
           <p>xxxxxxxxxxx</p>
           <p>xxxxxxxxxxx</p>
         </div>

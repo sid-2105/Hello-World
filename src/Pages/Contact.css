@@ -18,6 +18,14 @@
     animation: aboutanim2 5s forwards;
 }
 
+.contact_left p{
+    margin-bottom: 4px;
+}
+
+.contact_left h5{
+    margin-bottom: 4vh;
+}
+
 .contact_right img{
     animation: aboutanim 5s forwards;
 }

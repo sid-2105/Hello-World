@@ -28,7 +28,7 @@ const Gallery = () => {
       <div className="team">
         <ProfileCard profileType={'Bottom'} profileImage={'./sid.jpg'} profileName={'Siddharth Mishra'} profileDesignation={'President'}/>
         <ProfileCard profileType={'Bottom'} profileImage={'./shiv.jpeg'} profileName={'Shivansh Dwivedi'} profileDesignation={'Vice-President'}/>
-        <ProfileCard profileType={'Bottom'} profileImage={'./diesel.jpeg'} profileName={'Shivang Gupta'} profileDesignation={'Treasurer/Membership'}/>
+        <ProfileCard profileType={'Bottom'} profileImage={'./diesel.jpeg'} profileName={'Shivang Gupta'} profileDesignation={'Treasurer'}/>
         <ProfileCard profileType={'Bottom'} profileImage={'./shubhi.jpeg'} profileName={'Shubhranshu'} profileDesignation={'Secretary/Social Media'}/>
         <ProfileCard profileType={'Bottom'} profileImage={'./saumya.jpg'} profileName={'Saumya Singh'} profileDesignation={'Technical Lead'}/>
         <ProfileCard profileType={'Bottom'} profileImage={'./anshika.jpg'} profileName={'Anshika'} profileDesignation={'Event Coordinator'}/>
