@@ -49,12 +49,10 @@
     font-size: larger;
     font-weight: bolder;
     display: block;
-    font-family: 'Kalam', cursive;
 }
 
 .Designation{
     font-size: large;
-    font-family: 'Kalam', cursive;
 }
 
 @media screen and (max-width:480px) {
@@ -79,12 +77,10 @@
         font-size: medium;
         font-weight: bold;
         display: block;
-        font-family: 'Kalam', cursive;
     }
 
     .Designation{
         font-size: small;
-        font-family: 'Kalam', cursive;
     } 
 }
 
@@ -110,12 +106,10 @@
         font-size: medium;
         font-weight: bold;
         display: block;
-        font-family: 'Kalam', cursive;
     }
 
     .Designation{
         font-size: small;
-        font-family: 'Kalam', cursive;
     }
 }
 
@@ -139,11 +133,9 @@
             font-size: large;
             font-weight: bold;
             display: block;
-            font-family: 'Kalam', cursive;
         }
     
         .Designation{
             font-size: medium;
-            font-family: 'Kalam', cursive;
         }
     }

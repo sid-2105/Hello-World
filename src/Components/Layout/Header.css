@@ -42,7 +42,7 @@
   text-decoration: none;
   font-size: 1vw;
   font-weight: 600;
-  font-family: 'Kalam', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .Header_Navigation a:hover{
@@ -78,7 +78,6 @@
     text-decoration: none;
     font-size: 3vw;
     font-weight: 600;
-    font-family: 'Kalam', cursive;
   }
    .active{
     position: absolute;
@@ -118,7 +117,6 @@
     text-decoration: none;
     font-size: 2.5vw;
     font-weight: 600;
-    font-family: 'Kalam', cursive;
   }
    .active{
     position: absolute;
@@ -158,7 +156,6 @@
     text-decoration: none;
     font-size: 2vw;
     font-weight: 600;
-    font-family: 'Kalam', cursive;
   }
    .active{
     position: absolute;

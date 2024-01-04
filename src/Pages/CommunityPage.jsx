@@ -3,7 +3,7 @@ import Community from './Community'
 
 const CommunityPage = () => {
   return (
-    <div style={{paddingTop : '15vw'}}><Community/></div>
+    <div style={{paddingTop : '10vw'}}><Community/></div>
   )
 }
 

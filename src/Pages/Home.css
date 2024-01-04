@@ -37,7 +37,6 @@
 .landingContainer .LandingContent{
     color:rgb(255, 230, 0);
     font-size: 6vw;
-    font-family: 'Playpen Sans', cursive;
     font-weight: 600;
     position: absolute;
     top: 45vh;
@@ -52,7 +51,6 @@
 .landingContainer h2{
     color: whitesmoke;
     font-size: 4vw;
-    font-family: 'Playpen Sans', cursive;
     position: absolute;
     top: 35vh;
     left: 13vw;

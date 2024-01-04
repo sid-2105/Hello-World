@@ -7,19 +7,20 @@
 .Page{
   min-height: 80vh;
   overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 
 .Page h1{
   text-align: center;
   font-size: 2vw;
-  font-family: 'Playpen Sans', cursive;
   text-decoration: underline rgb(0, 162, 255);
 }
 
 .Page h2{
   text-align: center;
-  font-family: 'Playpen Sans', cursive;
   font-size: 1.8vw;
+  text-decoration:underline red;
+  margin-bottom: 5vh;
 }
 
 
@@ -30,15 +31,10 @@
   }
 
   .Page h1{
-    text-align: center;
     font-size: 6vw;
-    font-family: 'Playpen Sans', cursive;
-    text-decoration: underline rgb(0, 162, 255);
   }
 
   .Page h2{
-    text-align: center;
-    font-family: 'Playpen Sans', cursive;
     font-size: 5vw;
   }
   
@@ -52,15 +48,10 @@
   }
 
   .Page h1{
-    text-align: center;
     font-size: 5vw;
-    font-family: 'Playpen Sans', cursive;
-    text-decoration: underline rgb(0, 162, 255);
   }
 
   .Page h2{
-    text-align: center;
-    font-family: 'Playpen Sans', cursive;
     font-size: 4vw;
   }
   
@@ -74,15 +65,10 @@
   }
 
   .Page h1{
-    text-align: center;
     font-size: 4vw;
-    font-family: 'Playpen Sans', cursive;
-    text-decoration: underline rgb(0, 162, 255);
   }
 
   .Page h2{
-    text-align: center;
-    font-family: 'Playpen Sans', cursive;
     font-size: 3vw;
   }
   
