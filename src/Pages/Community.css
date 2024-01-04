@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width:767px) and (min-width:482px) {
+@media screen and (max-width:767px) and (min-width:642px){
     .community{
         flex-direction: column-reverse;
     }
