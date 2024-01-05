@@ -27,7 +27,7 @@ function App() {
     <Home/>
     <div className="parent">
     <div className="eligibility"><div className="icons"><FaClipboardCheck  size={50} style={{ color: "#0D1F2D"}} /></div><Card List={EligibilityList} Title={"Eligibility"}/></div>
-    <div className="benifits"><div className="icons"><FaTrophy  size={50} style={{ color: "#0D1F2D"}}/></div><Card List={BenifitsList} Title={"Benifits"}/></div>
+    <div className="benifits"><div className="icons"><FaTrophy  size={50} style={{ color: "#0D1F2D"}}/></div><Card List={BenifitsList} Title={"Benefits"}/></div>
     </div>
     <About/>  
     <Community/>
