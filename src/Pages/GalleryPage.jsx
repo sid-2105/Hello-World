@@ -3,7 +3,7 @@ import Gallery from './Gallery'
 
 const GalleryPage = () => {
   return (
-    <div style={{ paddingTop : '15vw'}}><Gallery/></div>
+    <div style={{ paddingTop : '10vw'}}><Gallery/></div>
   )
 }
 

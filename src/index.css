@@ -24,6 +24,9 @@
 
 
 @media screen and (max-width:480px){
+  .Page{
+      margin-top: 5vh;
+  }
 
   .body{
     max-width: 100%;
